@@ -4,7 +4,7 @@ def reduced_price(amount, reduction):
     final_price = amount - amount*reduction
     return final_price
     
-@pytest
+@pytest.fixture
 def Test_reduced_price():
     price = 100
     reduction = 50
