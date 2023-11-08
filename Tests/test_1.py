@@ -1,5 +1,6 @@
 #from code_1 import reduced_price
-
+import pytest
+@pytest.fixture
 def Test_reduced_price():
     price = 100
     reduction = 50
