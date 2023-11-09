@@ -10,4 +10,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: get environnement variables
-              run: echo "${{env}}"
+              run: echo "${{toJson(env)}}"
