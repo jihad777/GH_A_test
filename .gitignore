@@ -1,0 +1,6 @@
+**/__pycache__
+**/.pytest_cache
+#**/src/__pycache__
+#**/tests/__pycache__
+#**/tests/.pytest_cache
+#**tests/__pycache__/test_1.cpython-311-pytest-7.4.3.pyc
