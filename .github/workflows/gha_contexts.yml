@@ -5,4 +5,9 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: get github actions context
-              run: echo "${{toJson(github.owner.login)}}"
+              run: echo "${{toJson(github)}}"
+    second-job:
+        runs-on: ubuntu-latest
+        steps:
+            - name: get environnement variables
+              run: echo "${{env}}"
