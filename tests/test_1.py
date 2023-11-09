@@ -9,3 +9,5 @@ print(reduced_price(100, 0.50))
 
 def test_reduced_price():
     assert reduced_price(100, 0.50) == 50
+
+print("This is feature 1 update")
